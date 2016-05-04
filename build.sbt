@@ -11,3 +11,10 @@ libraryDependencies ++= Seq(
   cache,
   javaWs
 )
+
+routesGenerator := InjectedRoutesGenerator
+
+enablePlugins(DebianPlugin)
+maintainer := "ansel <ansel@qq.com>"
+packageSummary := "Ansel package"
+packageDescription := "Ansel"
